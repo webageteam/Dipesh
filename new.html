@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
+    <title>Document</title>
+</head>
+<script src="js/onload.js"></script>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-1 sidebar">
+                <ul class="list-group" id="sidebar-logo">
+                    <a href="#" class="img-fluid"><img style="width: 5rem; margin-top: 15px;"
+                            src="image/png logos-02 (2).png"></a>
+                    <a href="file:///C:/Users/Dipesh/Desktop/botx/portal/portalr2/index.html" class="img-fluid"><img
+                            class="logo1" src="image/lg1.png"></a>
+                    <a href="#" class="img-fluid"><img class="logo2" src="image/lg2.png"></a>
+                    <a href="#" class="img-fluid"><img class="logo2" src="image/lg3.png"></a>
+                    <a href="#" class="img-fluid"><img class="logo2" src="image/lg4.png"></a>
+                    <a href="#" class="img-fluid"><img class="logo2" src="image/lg5.png"></a>
+                    <a href="#" class="ima-fluid"><img class="logo3" src="image/lg6.png"></a>
+                </ul>
+            </div>
+
+            <div class="col-md-6" id="about-me" style="margin-top: 70px; margin-left: 52px;">
+                <h1 class="about-me-heading">Profile</h1>
+                <div class="row about-me justify-content-center" id="about-me-col">
+                    <!-- <div class="col-md-9 col-s-12 pb-5 pt-0"> -->
+                    <table class="table table-borderless justify-content-between about-me-content">
+                        <tbody class="h5">
+                            <tr>
+                                <td>First Name </td>
+                                <td>David</td>
+                            </tr>
+                            <tr>
+                                <td>Last Name</td>
+                                <td> Parker</td>
+                            </tr>
+                            <tr>
+                                <td> User Id </td>
+                                <td> 70</td>
+                            </tr>
+                            <tr>
+                                <td>Email </td>
+                                <td> Botx@gmail.com </td>
+                            </tr>
+                            <tr>
+                                <td> Phone No </td>
+                                <td> 9876543210 </td>
+                            </tr>
+                            <tr>
+                                <td>Employee Address</td>
+                                <td>Police quater<br>
+                                    Collectorate,Pouiiy<br>
+                                    628382, India</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- </div> -->
+                </div>
+            </div>
+<!-- profile img, name, psotition, -->
+            <div id="David" class="col-4 text-center " style="right: -50px;">
+                <div class="borderabout">
+
+                    <img src="image/download.jpg" id="David-img" class="profile">
+                    <h5 style="margin-top: 40px;">David Parker</h5>
+                    <h6>Senior Ui/Ux Designer</h6>
+                    <button type="button" class="btn  text-dark whitebutton" data-toggle="modal"
+                        data-target=".bd-example-modal-lg">Edit
+                        Profile</button><br>
+
+
+<!-- pop-up of edit profile -->
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <h4 style="margin-top: 50px;">Employee Address</h4>
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-6 text-left " style="margin-left:50px; margin-top: 37;">
+                                            <label for="inputnumer">Phone Number</label><br>
+                                            <input type="text" placeholder="Number" class="textareastyle">
+                                        </div>
+                                    </div><br>
+
+                                    <div class="row">
+                                        <div class="col-5 text-left " style="margin-left:50px; margin-top: 37;">
+                                            <label for="inputnumer">House Name/Number</label><br>
+                                            <input type="text" placeholder="House Name/Number" class="textareastyle">
+                                        </div>
+                                        <div class="col-5 text-left" style="margin-left: 40px;">
+                                            <label for="inputnumer">City</label><br>
+                                            <input type="text" placeholder="City" class="textareastyle">
+                                        </div>
+                                    </div><br>
+
+                                    <div class="row">
+                                        <div class="col-5 text-left " style="margin-left:50px; margin-top: 37;">
+                                            <label for="inputnumer">District</label><br>
+                                            <input type="text" placeholder="District" class="textareastyle">
+                                        </div>
+                                        <div class="col-5 text-left" style="margin-left: 40px;">
+                                            <label for="inputnumer">State</label><br>
+                                            <select id="inputState" class="form-select opt textareastyle">
+                                                <option selected>Delhi</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+                                    </div><br>
+
+                                    <div class="row">
+                                        <div class="col-5 text-left " style="margin-left:50px; margin-top: 37;">
+                                            <label for="inputnumer">Country</label><br>
+                                            <input type="text" placeholder="Country" class="textareastyle">
+                                        </div>
+                                        <div class="col-5 text-left" style="margin-left: 40px;">
+                                            <label for="inputnumer">Zip code</label><br>
+                                            <input type="text" placeholder="Zip code" class="textareastyle">
+                                        </div>
+                                    </div><br>
+
+
+                                    <div class="row">
+                                        <div class="col-6 text-right">
+                                            <button type="button" class="btn popup_whitebutton"
+                                                
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                        <div class="col-6 text-left">
+                                            <button type="button" class="btn popup_pinkbutton" 
+                                                data-dismiss="modal">Update</button>
+                                        </div>
+                                    </div><br>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- edit profile end -->
+
+                    <button class=" btn whitebutton" id="leavebtn" data-toggle="modal" data-target="#leaveapplay">Change
+                        Password</button>
+
+<!-- Password change pop-up -->
+                    <div class="modal fade" id="leaveapplay" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <h5 style="margin-top: 35px;">Change Password</h5>
+                                <div style="margin-left: 64px; margin-right: 70px;">
+                                    <p style="font-weight: 300;font-size: 14px;line-height: 21px; ">Passwords must
+                                        contains : At least 6 charactor, 1 number(0-9),
+                                        1 upercase letter(A-Z), 1 lowercase letter(a-z). </p>
+                                </div>
+
+                                <form action="" class="text-center">
+                                    <input type="text" placeholder="Password" class="textareastyle"
+                                        style="margin-top: 35px;">
+                                    <input type="text" placeholder="Conform Password" class="textareastyle"
+                                        style="margin-top: 20px;">
+                                    <br>
+                                    <br>
+                                    <button data-dismiss="modal" aria-label="Close " class="popup_whitebutton btn">Close</button>
+
+                                    <button class="popup_pinkbutton btn">Change</button>
+                                    
+                                </form>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Password change pop-up end -->
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+</body>
+
+</html>

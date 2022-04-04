@@ -1,0 +1,78 @@
+#sidebar-logo .img-fluid{
+    padding: 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sidebar{
+    box-shadow: 0.5px 0px 10px rgb(161, 112, 147);
+    border-radius: 17px;
+}
+.logo{
+    margin-top: 2rem;
+    margin-left: 0.7rem;
+    margin-bottom: 4rem;
+}
+.logo1{
+    margin-left: -10px;
+}
+.logo2{
+    margin-left: -10px;
+    margin-top: -30px;
+}
+.logo3{
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.roundborder{
+    box-shadow: 0.5px 0px 10px rgb(161, 112, 147);
+    border-radius: 17px;
+}
+
+/* pink button */
+.pinkbutton{
+    background: #F3D4FF;
+    border-radius: 10px;
+}
+
+/* white butto */
+.whitebutton{
+  width: 229px;
+  height: 49px;border: 1px solid #000000;
+border-radius: 10px; background-color: white; margin-top: 30px;
+}
+
+
+.borderabout{
+  height: 99% ;
+  background: linear-gradient(180deg, rgba(249, 233, 255, 0.38) 0%, rgba(249, 233, 255, 0.1) 100%);
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+}
+
+.profile{
+  width: 200px;
+        height: 200px; border-radius: 200px; margin-top: 60px;
+}
+
+.textareastyle{
+  width: 320px;
+  border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+height: 40px;
+}
+
+.popup_pinkbutton{
+  width: 140px;
+ height: 40px;background: #F3D4FF; 
+ border-radius: 10px;
+}
+.popup_whitebutton{
+  width: 140px;
+ height: 40px; 
+ background: white;
+ border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+}
