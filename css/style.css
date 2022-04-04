@@ -1,0 +1,148 @@
+#sidebar-logo .img-fluid{
+    padding: 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sidebar{
+    box-shadow: 0.5px 0px 10px rgb(161, 112, 147);
+    border-radius: 17px;
+}
+.logo{
+    margin-top: 2rem;
+    margin-left: 0.7rem;
+    margin-bottom: 4rem;
+}
+.logo1{
+    margin-left: -10px;
+}
+.logo2{
+    margin-left: -10px;
+    margin-top: -30px;
+}
+.logo3{
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.roundborder{
+    box-shadow: 0.5px 0px 10px rgb(161, 112, 147);
+    border-radius: 17px;
+}
+
+/* pink button */
+.pinkbutton{
+    background: #F3D4FF;
+    border-radius: 10px;
+}
+
+/* white butto */
+.whitebutton{
+    border: 1px solid #000000;
+                box-sizing: border-box;
+                border-radius: 10px; background-color: white; margin-left: 33px;
+}
+
+/* for scrollbar at notifiction section */
+div.ex1 {
+  background-color: white;
+  height: 370px;
+  overflow: auto;
+  }
+
+/* notification */
+  .notificationstyle{
+    width: 280px;
+    height: 90px;
+   margin-bottom: 9px;
+    
+    background: #F9E9FF;
+    border-radius: 10px;
+  }
+
+  .notificationstyle
+   .headtext{
+    position: absolute;
+    left: 25px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    
+
+  }
+
+  .notificationstyle .timeago{
+    position: absolute; right: 14px;color: #585858; display: flex;
+  }
+
+  .notificationstyle .subnoti{
+    position: absolute; left: 40px;
+    color: #585858;
+    width: 180px;
+
+}
+
+
+
+
+/* .containersuccsess{
+  margin-top:9rem;
+  width: 400px;
+height: 400px;
+  background: rgb(255, 255, 255);
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+}
+
+.titleclass{
+  position: absolute;
+width: 215px;
+height: 72px;
+left: 130px; 
+top: 43px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 72px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.tickimg{
+  
+  position: absolute;
+  height: 130px;
+  width: 130px;
+left: 145px;
+top: 120px;
+
+color: #27AE60;
+}
+
+.status{
+  position: absolute;
+width: 224px;
+height: 36px;
+left: 125px;
+top: 265px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+color: #000000;  
+}
+
+.greenbutton{
+  position: absolute;
+width: 140px;
+height: 36px;
+left: 145px;
+top: 327px;
+background: #27AE60;
+border-radius: 10px;
+} */
